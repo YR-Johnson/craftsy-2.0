@@ -1,0 +1,292 @@
+[
+   {
+      "id": 1,
+      "title": "Samsung Galaxy A20",
+      "price": 100,
+      "discount": 0,
+      "images": [
+         "img-phone-01.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Samsung",
+      "section": "temporada"
+   },
+   {
+      "id": 2,
+      "title": "Samsung Galaxy S20",
+      "price": 1000,
+      "discount": 5,
+      "images": [
+         "img-phone-02.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Samsung",
+      "section": "temporada"
+   },
+   {
+      "id": 3,
+      "title": "Samsung Galaxy J7",
+      "price": 60,
+      "discount": 0,
+      "images": [
+         "img-phone-03.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Samsung",
+      "section": "popular"
+   },
+   {
+      "id": 4,
+      "title": "Nokia 1100",
+      "price": 100,
+      "discount": 0,
+      "images": [
+         "img-phone-01.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Nokia",
+      "section": "popular"
+   },
+   {
+      "id": 5,
+      "title": "Iphone 13",
+      "price": 1000,
+      "discount": 10,
+      "images": [
+         "img-phone-02.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Iphone",
+      "section": "popular"
+   },
+   {
+      "id": 6,
+      "title": "Iphone 10",
+      "price": 500,
+      "discount": 0,
+      "images": [
+         "img-phone-03.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Iphone",
+      "section": "temporada"
+   },
+   {
+      "id": 7,
+      "title": "Blackberry",
+      "price": 500,
+      "discount": 20,
+      "images": [
+         "img-phone-01.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Blackberry",
+      "section": "popular"
+   },
+   {
+      "id": 8,
+      "title": "Motorola X-Play",
+      "price": 200,
+      "discount": 0,
+      "images": [
+         "img-phone-02.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Motorola",
+      "section": "temporada"
+   },
+   {
+      "id": 9,
+      "title": "Huawei",
+      "price": 200,
+      "discount": 15,
+      "images": [
+         "img-phone-03.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Huawei",
+      "section": "popular"
+   },
+   {
+      "id": 10,
+      "title": "Xiaomi Redmi Note",
+      "price": 200,
+      "discount": 0,
+      "images": [
+         "img-phone-01.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Xiaomi",
+      "section": "temporada"
+   },
+   {
+      "id": 11,
+      "title": "Motorola Tango 30",
+      "price": 1200,
+      "discount": 30,
+      "images": [
+         "img-phone-02.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Motorola",
+      "section": "popular"
+   },
+   {
+      "id": 12,
+      "title": "Philips 400",
+      "price": 200,
+      "discount": 0,
+      "images": [
+         "img-phone-03.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Philips",
+      "section": "temporada"
+   },
+   {
+      "id": 13,
+      "title": "Samsung Galaxy A50",
+      "price": 100,
+      "discount": 0,
+      "images": [
+         "img-phone-01.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Samsung",
+      "section": "temporada"
+   },
+   {
+      "id": 14,
+      "title": "Samsung Galaxy S10",
+      "price": 1000,
+      "discount": 5,
+      "images": [
+         "img-phone-03.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Samsung",
+      "section": "temporada"
+   },
+   {
+      "id": 16,
+      "title": "Samsung Galaxy S10",
+      "price": 1000,
+      "discount": 5,
+      "images": [
+         "img-phone-02.jpg"
+      ],
+      "description": "lorem ipsum dolor amet sit.",
+      "brand": "Samsung",
+      "section": "temporada"
+   },
+   {
+      "id": 17,
+      "title": "Nokia 6131",
+      "price": 2000,
+      "discount": 20,
+      "section": "popular",
+      "brand": "Nokia",
+      "description": "Es una masaaa",
+      "images": [
+         "default-image.png"
+      ]
+   },
+   {
+      "id": 18,
+      "title": "Konkia Indus",
+      "price": 200,
+      "discount": 0,
+      "section": "temporada",
+      "brand": "Konka",
+      "description": "barato y bueno... no tanto ja ja ja",
+      "images": [
+         "default-image.png"
+      ]
+   },
+   {
+      "id": 19,
+      "title": "Nokia Plus",
+      "price": 10000,
+      "discount": 0,
+      "section": "temporada",
+      "brand": "Motorola",
+      "description": "raaaaro....",
+      "images": [
+         "default-image.png"
+      ]
+   },
+   {
+      "id": 20,
+      "title": "SonyEricsson X45F",
+      "price": 200,
+      "discount": 5,
+      "section": "popular",
+      "brand": "Sony",
+      "description": "Este es hijo mío",
+      "images": [
+         "default-image.png"
+      ]
+   },
+   {
+      "id": 21,
+      "title": "producto de prueba 1",
+      "price": 100,
+      "discount": 10,
+      "section": "temporada",
+      "brand": "Nokia",
+      "description": "prueba 1",
+      "images": []
+   },
+   {
+      "id": 22,
+      "title": "producto de prueba 2",
+      "price": 2000,
+      "discount": 5,
+      "section": "popular",
+      "brand": "Iphone",
+      "description": "prueba 2",
+      "images": [
+         "product-1660681963899.webp"
+      ]
+   },
+   {
+      "id": 23,
+      "title": "producto de prueba 3",
+      "price": 4000,
+      "discount": 0,
+      "section": "temporada",
+      "brand": "Philips",
+      "description": "prueba 3",
+      "images": [
+         "product-1660682027853.jpeg",
+         "product-1660682027856.jpeg",
+         "product-1660682027858.png"
+      ]
+   },
+   {
+      "id": 24,
+      "title": "producto de prueba 4",
+      "price": 6000,
+      "discount": 5,
+      "section": "popular",
+      "brand": "Nokia",
+      "description": "producto 4",
+      "images": [
+         "product-1660682417572.png",
+         "product-1660682417584.jpg",
+         "product-1660682417585.jpg"
+      ]
+   },
+   {
+      "id": 25,
+      "title": "Celular Motion",
+      "price": 27000,
+      "discount": 0,
+      "section": "temporada",
+      "brand": "Huawei",
+      "description": "Chino pero bueno",
+      "images": [
+         "product-1660939157794.jpg"
+      ]
+   }
+]

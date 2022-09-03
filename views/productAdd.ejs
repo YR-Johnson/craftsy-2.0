@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <%- include('./partials/head', {
+        title : 'Nuevo producto'
+    }) %> 
+
+
+<body class="result">
+    <%- include('./partials/header') %> 
+
+    <main class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-md-8 col-lg-6 mx-auto">
+                <section class="card shadow">
+                    <div class="card-header">
+                        <h4>Nuevo producto</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12">
+                                    <label for="title" class="form-label">Producto</label>
+                                    <input type="text" class="form-control <%= locals.errors && errors.title ? 'is-invalid' : null %>" id="title" name="title" value="<%= locals.old && old.title ? old.title : null %>">
+                                    <p class="text-danger"><%= locals.errors && errors.title ? errors.title.msg : null %></p>
+                                  </div>
+                                  <div class="mb-3 col-12 col-md-6">
+                                    <label for="price" class="form-label">Precio</label>
+                                    <input class="form-control <%= locals.errors && errors.price ? 'is-invalid' : null %>" id="price" type="number" name="price" value="<%= locals.old && old.price ? old.price : null %>">
+                                    <p class="text-danger"><%= locals.errors && errors.price ? errors.price.msg : null %></p>
+                                  </div>
+                                  <div class="mb-3 col-12 col-md-6">
+                                    <label for="discount" class="form-label">Descuento</label>
+                                    <input class="form-control" id="discount" type="number" name="discount"value="<%= locals.old && old.discount ? old.discount : 0 %>">
+                                  </div>
+                                  <div class="mb-3 col-12 col-md-6">
+                                    <label for="seccion" class="form-label">Sección</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" value="temporada" name="section" id="section1">
+                                        <label class="form-check-label" for="section1">
+                                          Temporada
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" value="popular" name="section" id="section2">
+                                        <label class="form-check-label" for="section2">
+                                          Popular
+                                        </label>
+                                      </div>
+                                      <p class="text-danger"><%= locals.errors && errors.section ? errors.section.msg : null %></p>
+                                  </div>
+                                  <div class="mb-3 col-12 col-md-6">
+                                    <label for="brand" class="form-label">Marca</label>
+                                    <select name="brand" id="brand" class="form-control <%= locals.errors && errors.brand ? 'is-invalid' : null %>">
+                                        <option value="" hidden selected>Seleccione...</option>
+                                        <% brands.forEach(brand => { %>
+                                            <option value="<%= brand %>"><%= brand %></option>
+                                        <% }) %>
+                                    </select>
+                                    <p class="text-danger"><%= locals.errors && errors.brand ? errors.brand.msg : null %></p>
+
+                                  </div>
+                                  <div class="mb-3 col-12 col-md-6">
+                                    <label for="description" class="form-label">Descripción</label>
+                                    <textarea class="form-control <%= locals.errors && errors.description ? 'is-invalid' : null %>" name="description" id="description" cols="30" rows="5" style="resize: none;"><%= locals.old && old.description ? old.description : null %></textarea>
+                                    <p class="text-danger"><%= locals.errors && errors.description ? errors.description.msg : null %></p>
+
+                                  </div>
+                                  <div class="mb-3 col-12 col-md-6">
+                                    <label class="btn btn-secondary <%= locals.errors && errors.image ? 'btn-danger' : null %>" for="image">Agregar imagen</label> 
+                                    <input hidden type="file" accept="image/*" name="image" id="image" multiple>
+                                    <p class="text-danger"><%= locals.errors && errors.image ? errors.image.msg : null %></p>
+                                  </div>
+                                  <div class="text-end">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                  </div>
+                            </div>
+                          
+                        </form>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+      
+    </main>
+</body>
+
+</html>
